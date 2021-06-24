@@ -1,7 +1,9 @@
 body{margin-top: 60px;}
 .nav-item{text-transform: uppercase;
 padding-left: 1em;
-color: blue!important;}
+color: white!important;
+}
+nav{box-shadow: 1px 3px 5px gray!important;}
 
 .image-1{min-height: 100%;
 width: 100%;}
@@ -13,30 +15,30 @@ margin-left: -15px;
 	border-radius: 50%!important;
 	width: 7px!important;
 	height: 7px!important;
-	background-color: red!important;
+	background-color:#007bff9e!important;
 }
 .caption{margin-bottom: 10%!important;
 color:black!important;}
+.App-icon{font-size: 30px!important;
+color: #fff;}
+.text{font-size: 25px!important;}
+
 #Boxex img{margin-top: -50px;}
 
 .caption-1{color:#3292a6; }
 .caption-1:hover{color: #fff;}
 .outline:hover{background: skyblue!important;
-
 color: #fff;
-
-
-
 }
-.last-image{
-width: 64%!important;}
-.first-image{
-width: 53%!important;}
-.hover:hover{background: #e83e8c87;
-color: #fff;}
+.first-image{width: 70%!important;
+height: 30%!important;}
 
+.hover{color: black;}
+.hover:hover{background: skyblue!important;}
+.hover1{color: black;}
+.hover1:hover{background: #e83e8c42!important;}
 #getstarted{
-	background: url('../img/f.png'); 
+	background: url('../img/t (3).jpg'); 
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -52,15 +54,32 @@ color: #fff;}
 	width: 100%;
 
 }
-.picture-1{background: url('../img/munny.jpg'); 
+
+.height5{height: 100%!important;}
+.height4{height: 100%!important;}
+.outline-2:hover{background: #e83e8c70!important;
+color: #fff;
+}
+#getstarted-1{
+	background: url('../img/k.png'); 
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	min-height: 250px;
 	position: relative;
 }
-,.picture-2{
-	height: 150px!important;
+.dark-overlay{
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	width: 100%;
+
+}
+.first-image1{margin-top: 3px!important;}
+.mahi{
+	height: 190px!important;
 	width: 350px!important;
 
 }
@@ -81,8 +100,7 @@ color: #fff;}
 	width: 100%;
 
 }
-
-#started{
+#getstarted-2{
 	background: url('../img/f.png'); 
 	background-size: cover;
 	background-attachment: fixed;
@@ -99,12 +117,25 @@ color: #fff;}
 	width: 100%;
 
 }
-.phone-icon{
-font-size: 26px!important;
-margin-bottom:2px!important;
-float:left;
-margin-left: 1px;
-margin-top:5px;
+.email-icon{ font-size: 69px !important;
+margin-top: 118% !important;
+margin-left: 89% !important;}
+.email-icon1{margin-top: -59px !important;
+margin-left: -15px !important;
+font-size: 34px !important;
+color: black !important;}
+.phone-icon{font-size: 69px !important;
+margin-top: 118% !important;
+margin-left: 183% !important;}
+.phone-icon1{margin-top: -63px !important;
+margin-left: 176px !important;
+font-size: 30px !important;
+color: black !important;}
+.map-icon{font-size:49px !important;
+margin-top: 0% !important;
+margin-left: 44% !important;}
+.map-icon1{text-align: center;}
+.Contact-image{height: 430px!important;}
+.mahu:hover{
+	background-color: blue!important;
 }
-
-
